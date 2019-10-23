@@ -21,20 +21,34 @@ estilos globales
     padding-right: 20px;
     color: black;
 }
+.izquierda{
+	float: left;
+}
+
+#ovi_logo{
+background-image: url("../images/logoUNAD.png");
+width: 322px;
+    height: 63px;	
+}
+#titulo_logo{
+	color: #005883;
+    margin-top: 16px;
+    margin-left: 17%;
+}
 /*
 Encabezado
 */
 header{
-    background-color: black;
+    background-color: white;
     color: white;
     padding-top: 0px;
-    min-height: 70px;
-    border-bottom: 5px solid #1293d4;
+    min-height: 117px;
+    border-bottom: 3px solid #F47920;
 }
 header a{
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 16px;
+    font-size: 14px;
 }
 header li{
     float: left;
@@ -103,9 +117,10 @@ footer{
     padding:20px;
     margin-top: 20px;
     color: black;
-    background-color: 1293d4;
+    background-color: #F0B429;
     text-align: center;
 }
+
 
 
  * {
@@ -119,25 +134,27 @@ body{
     background: white;
     }
 .navegacion{
-    width: 1000px;
-    margin: 30px auto;
-    background: black;
-    text: blue;
+    width: 100%;
+    margin-top: 5px;
+    background: #005883;
+    color: white !important;
     }
 
 .navegacion ul{
     list-style: none;
+	float: right;
     }
 .menu > li{
     /*position: relative;*/
     display: inline-block;
 }
 .menu > li > a{
-    display: block;
+    display: inline-block;
     padding: 15px 20px;
-    color: #5B7CB6;
-    font-family: 'Open sans';
+    color: white;
+    font-family: 'Open Sans',sans-serif;
     text-decoration: none;
+	transition: .3s;
 }
 .menu li a:hover{
     color: #CE7D35;
@@ -151,16 +168,16 @@ submenu
 .submenu{
     position: absolute;
     background: #333333;
-    width:13%;
+    width:23%;
     visibility: hidden;
     opacity: 0;
     transition: opacity 1.5s;
 }
 .submenu li a {
-    display: block;
+    display: inline-block;
     padding: 15px;
     color: #fff;
-    font-family: 'Open sans';
+    font-family: 'Open Sans',sans-serif;
     text-decoration: none;
 }
 .menu li:hover .submenu{
