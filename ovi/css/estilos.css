@@ -1,5 +1,6 @@
 body{
-    font: 15px Arial, Helvetica, sans-serif;
+    font-size: 14px;
+	font-family :'Open Sans',sans-serif;
     padding: 0;
     margin: 0;
 
@@ -45,6 +46,53 @@ width: 322px;
 	color: #005883;
     margin-top: 16px;
     margin-left: 17%;
+}
+
+/*tablas*/
+table.colorAzul {
+  font-family: 'Open Sans',sans-serif;
+  border: 1px solid #FFFFFF;
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+}
+table.colorAzul th{
+	height: 50px;
+}
+table.colorAzul td, table.colorAzul th {
+  border: 1px solid #FFFFFF;
+  padding: 3px 2px;
+}
+table.colorAzul tbody td {
+  font-size: 13px;
+}
+table.colorAzul tr:nth-child(even) {
+  background: #D0E4F5;
+}
+table.colorAzul thead {
+  background: #0B6FA4;
+  border-bottom: 5px solid #FFFFFF;
+}
+table.colorAzul thead th {
+  font-size: 17px;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-align: center;
+  border-left: 2px solid #FFFFFF;
+}
+table.colorAzul thead th:first-child {
+  border-left: none;
+}
+
+table.colorAzul tfoot {
+  font-size: 14px;
+  font-weight: bold;
+  color: #333333;
+  background: #D0E4F5;
+  border-top: 3px solid #444444;
+}
+table.colorAzul tfoot td {
+  font-size: 14px;
 }
 /*
 Encabezado
