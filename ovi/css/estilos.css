@@ -27,10 +27,13 @@ estilos globales
 .contenido_izq{
 	width: 80%;
 	float: left;
+	
 }
 .contenido_der{
-	width: 20%;
-	float: right;
+	width: 19%;
+	float: left;
+	margin-right: 5px;
+	display: inline-block;
 }
 
 #ovi_logo{
@@ -75,7 +78,6 @@ Cabecera con imagen
 #texto{
     min-height:600px;
     text-align: center;
-    
 	margin-top: -80px;
 }
 #texto h1{
