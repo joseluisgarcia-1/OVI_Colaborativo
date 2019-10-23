@@ -157,8 +157,9 @@ body{
 	transition: .3s;
 }
 .menu li a:hover{
-    color: #CE7D35;
+    color: #005883;
     transition: all .3s;
+	background-color: #fff;
 }
 
 /*
@@ -168,7 +169,7 @@ submenu
 .submenu{
     position: absolute;
     background: #333333;
-    width:23%;
+    width:160px;
     visibility: hidden;
     opacity: 0;
     transition: opacity 1.5s;
