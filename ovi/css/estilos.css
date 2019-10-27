@@ -1,13 +1,32 @@
+ * {
+    padding: 0px;
+    margin: 0px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    }
+	
+	
 body{
     font-size: 14px;
 	font-family :'Open Sans',sans-serif;
     padding: 0;
     margin: 0;
-
+	background: white;
 }
 /*
 estilos globales
 */
+.imagen_logo{
+	
+	max-width: 100%;
+  height: auto;
+}
+pre {
+	
+	text-align: left;
+	padding: 15px;
+}
 .contenedor{
     width: 100%;
     margin: auto;
@@ -124,7 +143,7 @@ header nav{
 Cabecera con imagen
 */
 #texto{
-    min-height:600px;
+    min-height:800px;
     text-align: center;
 	margin-top: -80px;
 }
@@ -133,8 +152,10 @@ Cabecera con imagen
     font-size: 55px;
     margin-bottom: 10px;
 }
-#texto p{
+#texto p, #texto div{
     font-size: 20px;
+	text-align: justify;
+	padding: 15px;
 }
 
 #informacion{
@@ -183,16 +204,7 @@ footer{
 
 
 
- * {
-    padding: 0px;
-    margin: 0px;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    }
-body{
-    background: white;
-    }
+
 .navegacion{
     width: 100%;
     margin-top: 5px;
