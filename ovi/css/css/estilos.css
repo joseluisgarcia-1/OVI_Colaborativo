@@ -1,0 +1,375 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+	
+body {
+	font-family :'Open Sans',sans-serif;
+}
+/*
+estilos globales
+*/
+.imagen_logo{
+	
+	max-width: 100%;
+  height: auto;
+}
+pre {
+	
+	text-align: left;
+	padding: 15px;
+}
+
+.boton1{
+    height: 38px;
+    background-color: orange;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: black;
+}
+.izquierda{
+	float: left;
+}
+.contenido_izq{
+	width: 80%;
+	float: left;
+	
+}
+.contenido_der{
+	width: 19%;
+	float: left;
+	margin-right: 5px;
+	display: inline-block;
+}
+
+#ovi_logo{
+background-image: url("../images/logoUNAD.png");
+width: 322px;
+    height: 63px;	
+}
+#titulo_logo{
+	color: #005883;
+    margin-top: 16px;
+    margin-left: 17%;
+}
+
+/*tablas*/
+table.colorAzul {
+  font-family: 'Open Sans',sans-serif;
+  border: 1px solid #FFFFFF;
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+}
+table.colorAzul th{
+	height: 50px;
+}
+table.colorAzul td, table.colorAzul th {
+  border: 1px solid #FFFFFF;
+  padding: 3px 2px;
+}
+table.colorAzul tbody td {
+  font-size: 13px;
+}
+table.colorAzul tr:nth-child(even) {
+  background: #D0E4F5;
+}
+table.colorAzul thead {
+  background: #005883;
+  border-bottom: 5px solid #FFFFFF;
+}
+table.colorAzul thead th {
+  font-size: 17px;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-align: center;
+  border-left: 2px solid #FFFFFF;
+}
+table.colorAzul thead th:first-child {
+  border-left: none;
+}
+
+table.colorAzul tfoot {
+  font-size: 14px;
+  font-weight: bold;
+  color: #333333;
+  background: #D0E4F5;
+  border-top: 3px solid #444444;
+}
+table.colorAzul tfoot td {
+  font-size: 14px;
+}
+/*
+Encabezado
+*/
+header{
+    background-color: white;
+    color: white;
+    padding-top: 0px;
+    min-height: 117px;
+    border-bottom: 3px solid #F47920;
+
+}
+header a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+header nav{
+    float: right;
+    margin-top: 0px;
+}
+
+/*
+Cabecera con imagen
+*/
+#texto{
+    min-height:800px;
+    text-align: center;
+	margin-top: -80px;
+}
+#texto h1{
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+#texto p, #texto div{
+    font-size: 20px;
+	text-align: justify;
+	padding: 15px;
+}
+
+#informacion{
+    padding: 15px;
+    color: #fff;
+    background: black;
+}
+#informacion h1{
+    float: left;
+    color: white;
+}
+
+#informacion form{
+    float: right;
+    margin-top: 05px;
+}
+/*
+logos
+*/
+
+#logos{
+    margin-top: 20px;
+}
+
+#logos .logo{
+    width: 30%;
+    padding: 10px;
+}
+
+#logos .logo img{
+    width: 55px;
+    height: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* global */
+.grid-footer .acercaDe,
+.grid-footer .contactos,
+.grid-footer .redSocials {
+    padding: 1em 1em 0 1em;
+    border-left: 2px solid #784212
+}
+
+.grid-footer .acercaDe a,
+.grid-footer .contactos a {
+    color: #7E5109;
+    display: block;
+    padding: .5em 0 .5em 1em 
+}
+
+.redSocials h2,
+.contactos h2,
+.acercaDe h2 { display: block }
+
+.content-left,
+.content-full,
+.content-right { margin: 1em }
+
+.container .grid-container .content-left h1,
+.container .grid-container .content-left h4,
+.container .grid-container .content-left p,
+.container .grid-container .content-left ul {
+    margin: 1em 0;
+} .container .grid-container .content-left p {
+    margin-left: 1em;
+}
+.container .grid-container .content-full h1,
+.container .grid-container .content-full h4,
+.container .grid-container .content-full p,
+.container .grid-container .content-full ul {
+    margin: 1em 0;
+} .container .grid-container .content-full p {
+    margin-left: 1em;
+}
+.container .grid-container .content-left ul li {
+    margin-left: 1em;
+    margin-bottom: 1em;
+}
+/* /global */
+
+/* footer */
+footer {
+    /* padding:20px; */
+    color: #784212;
+    background-color: #F0B429;
+}
+/* /footer */
+
+/* container */
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+/* /container */
+
+/* grid-container */
+.grid-container {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+/* /grid-container */
+
+/* container-left */
+.content-left { width: 70% }
+/* /container-left */
+
+/* container-full */
+.content-full { width: 100% }
+/* /container-full */
+
+/* container-right */
+.content-right { width: 30% }
+.widget-twitter { position: sticky; top: 1em }
+/* /container-right */
+
+/* grid-footer */
+.grid-footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    padding: 1em
+}
+/* /grid-footer */
+
+/* redes sociales */
+.redSocials .iconsRedSocials {
+    background: rgba(0, 0, 0, .1);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1em;
+}
+.redSocials .iconsRedSocials a svg {
+    width: 100%;
+    height: 50px;
+}
+/* /redes sociales */
+
+/* acerca de */
+.grid-footer .acercaDe {
+    display: flex;
+    flex-direction: column;
+}
+/* /acerca de */
+
+/* copyright-visitas */
+.copyright-visitas {
+    display: flex;
+    justify-content: space-between;
+    
+}
+/* /copyright-visitas */
+
+/* responsive-table */
+.responsive-table {
+    width: 100%;
+    overflow: auto;
+}
+
+
+
+
+
+
+
+.navegacion{
+    width: 100%;
+    margin-top: 5px;
+    background: #005883;
+    color: white !important;
+}
+
+.navegacion ul{
+    list-style: none;
+	float: right;
+    }
+.menu > li{
+    /*position: relative;*/
+}
+.menu > li > a{
+    display: inline-block;
+    padding: 15px 20px;
+    color: white;
+    font-family: 'Open Sans',sans-serif;
+    text-decoration: none;
+}
+.menu li a:hover{
+    color: #005883;
+	background-color: #fff;
+}
+
+/*
+submenu
+*/
+
+.submenu{
+    position: absolute;
+    background: #333333;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .5s;
+    z-index: 1
+}
+.submenu li a {
+    display: block;
+    padding: 1em;
+    color: #fff;
+    font-family: 'Open Sans',sans-serif;
+    text-decoration: none;
+}
+.menu li:hover .submenu{
+    visibility: visible;
+    opacity: 1;
+}

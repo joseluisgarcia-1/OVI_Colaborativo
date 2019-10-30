@@ -1,18 +1,13 @@
- * {
+* {
     padding: 0px;
     margin: 0px;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    }
+}
 	
-	
-body{
-    font-size: 14px;
+body {
 	font-family :'Open Sans',sans-serif;
-    padding: 0;
-    margin: 0;
-	background: white;
 }
 /*
 estilos globales
@@ -26,11 +21,6 @@ pre {
 	
 	text-align: left;
 	padding: 15px;
-}
-.contenedor{
-    width: 100%;
-    margin: auto;
-    overflow: hidden;
 }
 
 .boton1{
@@ -190,17 +180,143 @@ logos
     height: 40px;
 }
 
-/*
-Pie de página o footer
-*/
 
-footer{
-    padding:20px;
-    margin-top: 20px;
-    color: black;
-    background-color: #F0B429;
-    text-align: center;
+
+
+
+
+
+
+
+
+
+/* global */
+.grid-footer .acercaDe,
+.grid-footer .contactos,
+.grid-footer .redSocials {
+    padding: 1em 1em 0 1em;
+    border-left: 2px solid #784212
 }
+
+.grid-footer .acercaDe a,
+.grid-footer .contactos a {
+    color: #7E5109;
+    display: block;
+    padding: .5em 0 .5em 1em 
+}
+
+.redSocials h2,
+.contactos h2,
+.acercaDe h2 { display: block }
+
+.content-left,
+.content-full,
+.content-right { margin: 1em }
+
+.container .grid-container .content-left h1,
+.container .grid-container .content-left h4,
+.container .grid-container .content-left p,
+.container .grid-container .content-left ul {
+    margin: 1em 0;
+} .container .grid-container .content-left p {
+    margin-left: 1em;
+}
+.container .grid-container .content-full h1,
+.container .grid-container .content-full h4,
+.container .grid-container .content-full p,
+.container .grid-container .content-full ul {
+    margin: 1em 0;
+} .container .grid-container .content-full p {
+    margin-left: 1em;
+}
+.container .grid-container .content-left ul li {
+    margin-left: 1em;
+    margin-bottom: 1em;
+}
+/* /global */
+
+/* footer */
+footer {
+    /* padding:20px; */
+    color: #784212;
+    background-color: #F0B429;
+}
+/* /footer */
+
+/* container */
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+/* /container */
+
+/* grid-container */
+.grid-container {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+/* /grid-container */
+
+/* container-left */
+.content-left { width: 70% }
+/* /container-left */
+
+/* container-full */
+.content-full { width: 100% }
+/* /container-full */
+
+/* container-right */
+.content-right { width: 30% }
+.widget-twitter { position: sticky; top: 1em }
+/* /container-right */
+
+/* grid-footer */
+.grid-footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    padding: 1em
+}
+/* /grid-footer */
+
+/* redes sociales */
+.redSocials .iconsRedSocials {
+    background: rgba(0, 0, 0, .1);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1em;
+}
+.redSocials .iconsRedSocials a svg {
+    width: 100%;
+    height: 50px;
+}
+/* /redes sociales */
+
+/* acerca de */
+.grid-footer .acercaDe {
+    display: flex;
+    flex-direction: column;
+}
+/* /acerca de */
+
+/* copyright-visitas */
+.copyright-visitas {
+    display: flex;
+    justify-content: space-between;
+    
+}
+/* /copyright-visitas */
+
+/* responsive-table */
+.responsive-table {
+    width: 100%;
+    overflow: auto;
+}
+
+
+
 
 
 
@@ -210,7 +326,7 @@ footer{
     margin-top: 5px;
     background: #005883;
     color: white !important;
-    }
+}
 
 .navegacion ul{
     list-style: none;
@@ -218,7 +334,6 @@ footer{
     }
 .menu > li{
     /*position: relative;*/
-    display: inline-block;
 }
 .menu > li > a{
     display: inline-block;
@@ -226,11 +341,9 @@ footer{
     color: white;
     font-family: 'Open Sans',sans-serif;
     text-decoration: none;
-	transition: .3s;
 }
 .menu li a:hover{
     color: #005883;
-    transition: all .3s;
 	background-color: #fff;
 }
 
@@ -241,14 +354,17 @@ submenu
 .submenu{
     position: absolute;
     background: #333333;
-    width:160px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
     visibility: hidden;
     opacity: 0;
-    transition: opacity 1.5s;
+    transition: opacity .5s;
+    z-index: 1
 }
 .submenu li a {
-    display: inline-block;
-    padding: 15px;
+    display: block;
+    padding: 1em;
     color: #fff;
     font-family: 'Open Sans',sans-serif;
     text-decoration: none;
