@@ -210,7 +210,7 @@ article
 }
 #logoblender
 {
-    width:100px;
+  width:100px;
 	height:100px;
 	font-family:bold verdana, sans-serif;
 	font-size:20px;
@@ -231,6 +231,77 @@ article
 	margin:10px;
 
 	position:absolute;
+}
+#logohtml{
+width:100px;
+height:100px;
+font-family:bold verdana, sans-serif;
+font-size:20px;
+color:white;
+text-align:left;
+
+background:url('../images/descarga.png');
+background-size:100% 100%;
+background-repeat:no-repeat;
+display:box;
+border:1px solid white;
+
+border-radius:0px 10px 0px 10px;
+-moz-border-radius:0px 1px 0px 10px;
+-webkit-border-radius:0px 10px 0px 10px;
+-o-border-radius:0px 10px 0px 10px;
+float:left;
+margin:10px;
+
+position:absolute;
+}
+#logohtml5
+{
+  width:100px;
+  height:100px;
+  font-family:bold verdana, sans-serif;
+  font-size:20px;
+  color:white;
+  text-align:left;
+
+  background:url('../images/html.png');
+  background-size:100% 100%;
+  background-repeat:no-repeat;
+  display:box;
+  border:1px solid white;
+
+  border-radius:0px 10px 0px 10px;
+  -moz-border-radius:0px 1px 0px 10px;
+  -webkit-border-radius:0px 10px 0px 10px;
+  -o-border-radius:0px 10px 0px 10px;
+  float:left;
+  margin:10px;
+
+  position:absolute;
+}
+#logocss
+{
+  width:100px;
+  height:120px;
+  font-family:bold verdana, sans-serif;
+  font-size:20px;
+  color:white;
+  text-align:left;
+
+  background:url('../images/css.jpg');
+  background-size:100% 100%;
+  background-repeat:no-repeat;
+  display:box;
+  border:1px solid white;
+
+  border-radius:0px 10px 0px 10px;
+  -moz-border-radius:0px 1px 0px 10px;
+  -webkit-border-radius:0px 10px 0px 10px;
+  -o-border-radius:0px 10px 0px 10px;
+  float:left;
+  margin:10px;
+
+  position:absolute;
 }
   #mifotoarticulo
   {
