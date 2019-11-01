@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="device-width">
+    <meta name="description" content="Trabajo colaborativo">
+    <meta name="keywords" content="Trabajo colaborativo, diseño de sistemas">
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <link rel="icon" type="image/jpg" href="images/UNAD.jpg">
+
+    <title>Inicio Ovi</title>
+
+</head>
+<body>
+    <header>
+				<div id="ovi_logo" class="izquierda"></div>
+                <h1 class="izquierda" id="titulo_logo">
+                    <span >Ovi trabajo colaborativo - Git y Github
+                </h1>
+        <nav class="navegacion">
+
+            <ul class="menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="lecturas.html">Lecturas</a>
+                    <ul class="submenu">
+                        <li><a href="lectura1.html">Lectura 1</a></li>
+                        <li><a href="lectura2.html">Lectura 2</a></li>
+                        <li><a href="lectura3.html">Lectura 3</a></li>
+                        <li><a href="lectura4.html">Lectura 4</a></li>
+                        <li><a href="lectura5.html">Lectura 5</a></li>
+                    </ul>
+                </li>
+                <li><a href="multimedia.html">Multimedia</a>
+                    <ul class="submenu">
+                        <li><a href="audios.html">Audios</a></li>
+                        <li><a href="videos.html">Videos</a></li>
+                    </ul>
+                </li>
+                <li><a href="actividades.html">Actividades</a>
+                    <ul class="submenu">
+                        <li><a href="actividad1.html">Actividad 1</a></li>
+                        <li><a href="actividad2.html">Actividad 2</a></li>
+                        <li><a href="actividad3.html">Actividad 3</a></li>
+                    </ul>
+                </li>
+                <li><a href="autores.html">Autores</a></li>
+            </ul>
+
+        </nav>
+    </header>
+    <section id="texto"><article>
+            <h3>Directorio de Git</h3>
+         <p>
+<img src="images/git.png" class="imagen_logo">
+             <br>
+El directorio de Git es donde Git almacena los metadatos y la base de datos de objetos para tu proyecto. Es la parte más
+importante de Git, y es lo que se copia cuando clonas un repositorio desde otro ordenador. <br><br>El directorio de trabajo es una copia de una versión del proyecto. Estos archivos se sacan de la base de datos comprimida en el directorio de Git, y se colocan en disco para que los puedas usar o modificar.
+
+El área de preparación es un sencillo archivo, generalmente contenido en tu directorio de Git, que almacena información acerca
+de lo que va a ir en tu próxima confirmación. A veces se le denomina índice, pero se está convirtiendo en estándar
+el referirse a ella como el área de preparación. <br><br>
+El flujo de trabajo básico en Git es algo así:<br>
+<br>1. Modificas una serie de archivos en tu directorio de trabajo.
+<br>2. Preparas los archivos, añadiendolos a tu área de preparación.
+<br>3. Confirmas los cambios, lo que toma los archivos tal y como están en el área de preparación, y almacena esas instantáneas
+de manera permanente en tu directorio de Git.<br><br>
+Si una versión concreta de un archivo está en el directorio de Git, se considera confirmada (committed). Si ha sufrido cambios
+desde que se obtuvo del repositorio, pero ha sido añadida al área de preparación, está preparada (staged). Y si ha sufrido cambios
+desde que se obtuvo del repositorio, pero no se ha preparado, está modificada (modified). En el Capítulo 2 aprenderás más acerca
+de estos estados, y de cómo puedes aprovecharte de ellos o saltarte toda la parte de preparación.
+            </p>
+<p>Git. (s.f.). Empezando, Fundamentos de Git. Recuperado de: <a href="https://git-scm.com/book/es/v1/Empezando-Fundamentos-de-Git" target="blank"> https://git-scm.com/book/es/v1/Empezando-Fundamentos-de-Git</a>
+
+</article>
+    </section>
+
+    <!--<section id="informacion">
+        <div class="contenedor">
+            <form>
+            </form>
+    </section>-->
+
+    <footer>
+        <center>
+        <section id="logos">
+        <div class="contenedor">
+            <div class="logo">
+                <img src="images/facebook.jpg">
+                <a href="https://twitter.com/UniversidadUNAD?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"><img src="images/twitter.png"></a>
+                <img src="images/linkedin.png">
+                <img src="images/instagrama.jpg">
+                <img src="images/youtube.jpg">
+
+            </div>
+        </div>
+    </section></center>
+              <!--<center>
+<img style="border: 0px solid; display: inline;" alt="contador de visitas" src="http://www.websmultimedia.com/contador-de-visitas.php?id=272931">
+            </center>
+        Derechos reservados ®, trabajo colaborativo diseño de sitios web 2019, UNAD.--><h6><div class="vcard">
+          <div><span class="name">José Luis García-José Gonzalo Calambás-Nerly del Socorro Andrade-Jairo Alberto España Isacas</span>-<span class="locality">Popayan</span>-<span class="region">UNAD</span>-<span class="postal-code">46920</span>-<span class="country-name">Colombia</span></div>
+          <div><span class="tel">3136811289</span>-<span class="email">jlgarciaq@unadvirtual.edu.co jgcalambas@misena.edu.co jairo.espana.i@gmail.com</span>-<div><span>Derechos reservados ®, trabajo colaborativo diseño de sitios web 2019</div></span></div>
+        </div>
+      </h6>
+      <script type="text/javascript">
+          if(localStorage.pagecount){localStorage.pagecount = Number(localStorage.pagecount)+1;}else{localStorage.pagecount = 1;}
+        document.write("Has visitado esta pagina "+ localStorage.pagecount  + " veces ");
+      </script>
+      <script type="text/javascript">
+          if(sessionStorage.pagecount){sessionStorage.pagecount = Number (sessionStorage.pagecount)+ 1;}else{sessionStorage.pagecount = 1;}
+        document.write("En esta sesion has visitado esta pagina :" + sessionStorage.pagecount + " veces ");
+      </script>
+</footer></body>
+</html>

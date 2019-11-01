@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="device-width">
+    <meta name="description" content="Trabajo colaborativo">
+    <meta name="keywords" content="Trabajo colaborativo, diseño de sistemas">
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <link rel="icon" type="image/jpg" href="images/UNAD.jpg">
+
+    <title>Inicio Ovi</title>
+
+</head>
+<body>
+    <header>
+				<div id="ovi_logo" class="izquierda"></div>
+                <h1 class="izquierda" id="titulo_logo">
+                    <span >Ovi trabajo colaborativo - Git y Github
+                </h1>
+        <nav class="navegacion">
+
+            <ul class="menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="lecturas.html">Lecturas</a>
+                    <ul class="submenu">
+                        <li><a href="lectura1.html">Lectura 1</a></li>
+                        <li><a href="lectura2.html">Lectura 2</a></li>
+                        <li><a href="lectura3.html">Lectura 3</a></li>
+                        <li><a href="lectura4.html">Lectura 4</a></li>
+                        <li><a href="lectura5.html">Lectura 5</a></li>
+                    </ul>
+                </li>
+                <li><a href="multimedia.html">Multimedia</a>
+                    <ul class="submenu">
+                        <li><a href="audios.html">Audios</a></li>
+                        <li><a href="videos.html">Videos</a></li>
+                    </ul>
+                </li>
+                <li><a href="actividades.html">Actividades</a>
+                    <ul class="submenu">
+                        <li><a href="actividad1.html">Actividad 1</a></li>
+                        <li><a href="actividad2.html">Actividad 2</a></li>
+                        <li><a href="actividad3.html">Actividad 3</a></li>
+                    </ul>
+                </li>
+                <li><a href="autores.html">Autores</a></li>
+            </ul>
+
+        </nav>
+    </header>
+    <section id="texto"><article>
+            <h3>Casi cualquier operación es local en Git</h3>
+         <p>
+<img src="images/git.png" class="imagen_logo"  >
+<br>
+
+La mayoría de las operaciones en Git sólo necesitan archivos y recursos locales para operar. Por lo general
+no se necesita información de ningún otro ordenador de tu red. Si estás acostumbrado a un CVCS donde la mayoría de las operaciones
+tienen esa sobrecarga del retardo de la red, este aspecto de Git te va a hacer pensar que los dioses de la velocidad han bendecido
+Git con poderes sobrenaturales. <br><br>Como tienes toda la historia del proyecto ahí mismo, en tu disco local, la mayoría de las
+operaciones parecen prácticamente inmediatas.
+
+Por ejemplo, para navegar por la historia del proyecto, Git no necesita salir al servidor para obtener la historia y mostrártela,
+simplemente la lee directamente de tu base de datos local. <br><br>Esto significa que ves la historia del proyecto casi al instante.
+Si quieres ver los cambios introducidos en un archivo entre la versión actual y la de hace un mes, Git puede buscar el archivo
+hace un mes y hacer un cálculo de diferencias localmente, en lugar de tener que pedirle a un servidor remoto que lo haga,
+u obtener una versión antigua desde la red y hacerlo de manera local. Esto también significa que hay muy poco que no puedas hacer
+si estás desconectado o sin VPN. <br><br>Si te subes a un avión o a un tren y quieres trabajar un poco, puedes confirmar tus cambios
+felizmente hasta que consigas una conexión de red para subirlos. Si te vas a casa y no consigues que tu cliente VPN funcione
+correctamente, puedes seguir trabajando. En muchos otros sistemas, esto es imposible o muy doloroso.
+ <br><br>En Perforce, por ejemplo, no puedes hacer mucho cuando no estás conectado al servidor; y en Subversion y CVS,
+puedes editar archivos, pero no puedes confirmar los cambios a tu base de datos (porque tu base de datos no tiene conexión).
+Esto puede no parecer gran cosa, pero te sorprendería la diferencia que puede suponer.
+            </p>
+<p>Git. (s.f.). Empezando, Fundamentos de Git. Recuperado de: <a href="https://git-scm.com/book/es/v1/Empezando-Fundamentos-de-Git" target="blank"> https://git-scm.com/book/es/v1/Empezando-Fundamentos-de-Git</a>
+
+
+</article>
+    </section>
+
+    <!--<section id="informacion">
+        <div class="contenedor">
+            <form>
+            </form>
+    </section>-->
+
+   <footer>
+        <center>
+        <section id="logos">
+        <div class="contenedor">
+            <div class="logo">
+                <img src="images/facebook.jpg">
+                <a href="https://twitter.com/UniversidadUNAD?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"><img src="images/twitter.png"></a>
+                <img src="images/linkedin.png">
+                <img src="images/instagrama.jpg">
+                <img src="images/youtube.jpg">
+
+            </div>
+        </div>
+    </section></center>
+              <!--<center>
+<img style="border: 0px solid; display: inline;" alt="contador de visitas" src="http://www.websmultimedia.com/contador-de-visitas.php?id=272931">
+            </center>
+        Derechos reservados ®, trabajo colaborativo diseño de sitios web 2019, UNAD.--><h6><div class="vcard">
+          <div><span class="name">José Luis García-José Gonzalo Calambás-Nerly del Socorro Andrade-Jairo Alberto España Isacas</span>-<span class="locality">Popayan</span>-<span class="region">UNAD</span>-<span class="postal-code">46920</span>-<span class="country-name">Colombia</span></div>
+          <div><span class="tel">3136811289</span>-<span class="email">jlgarciaq@unadvirtual.edu.co jgcalambas@misena.edu.co jairo.espana.i@gmail.com</span>-<div><span>Derechos reservados ®, trabajo colaborativo diseño de sitios web 2019</div></span></div>
+        </div>
+      </h6>
+      <script type="text/javascript">
+          if(localStorage.pagecount){localStorage.pagecount = Number(localStorage.pagecount)+1;}else{localStorage.pagecount = 1;}
+        document.write("Has visitado esta pagina "+ localStorage.pagecount  + " veces ");
+      </script>
+      <script type="text/javascript">
+          if(sessionStorage.pagecount){sessionStorage.pagecount = Number (sessionStorage.pagecount)+ 1;}else{sessionStorage.pagecount = 1;}
+        document.write("En esta sesion has visitado esta pagina :" + sessionStorage.pagecount + " veces ");
+      </script>
+</footer></body>
+</html>
