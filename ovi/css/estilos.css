@@ -49,6 +49,9 @@ pre {
 	float: left;
 
 }
+.contenido_izq article{
+	    width: 90%;
+}
 .contenido_der{
 	width: 19%;
 	float: left;
@@ -217,7 +220,7 @@ article
 	color:white;
 	text-align:left;
 
-	background:url('../photo/consola.png');
+	background:url('../images/logoblender.png');
 	background-size:100% 100%;
 	background-repeat:no-repeat;
 	display:box;
@@ -312,7 +315,7 @@ position:absolute;
   	color:white;
   	text-align:left;
 
-  	background:url('../photo/bafles.png');
+  	background:url('../images/logobafles.jpg');
   	background-size:100% 100%;
   	background-repeat:no-repeat;
   	display:box;
